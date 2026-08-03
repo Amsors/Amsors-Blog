@@ -9,7 +9,7 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "Amsors' Blog",
-	subtitle: "记录技术、思考与生活",
+	subtitle: "",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 215, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "/favicon/favicon-light-192.png",
 	name: "Amsors",
-	bio: "在这里记录学习过程、工程实践和偶尔的生活片段。",
+	bio: "在这里记录学习、工程实践和一些生活片段",
 	links: [
 		{
 			name: "GitHub",
